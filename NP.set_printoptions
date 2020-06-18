@@ -1,0 +1,20 @@
+
+testing if it works
+set_printoptions(precision=None, threshold=None, edgeitems=None, 
+				linewidth=None, suppress=None, nanstr=None, infstr=None)
+        
+        precision : int, optional，float输出的精度，即小数点后维数，默认8（ Number of digits of precision for floating point output (default 8)）
+
+        threshold : int, optional，当数组数目过大时，设置显示几个数字，其余用省略号（Total number of array elements which trigger summarization rather than full repr (default 1000).）
+
+        edgeitems : int, optional，边缘数目（Number of array items in summary at beginning and end of each dimension (default 3)）.
+
+        linewidth : int, optional，The number of characters per line for the purpose of inserting line breaks (default 75).
+
+        suppress : bool, optional，是否压缩由科学计数法表示的浮点数（Whether or not suppress printing of small floating point values using scientific notation (default False).）
+
+        nanstr : str, optional，String representation of floating point not-a-number (default nan).
+
+        infstr : str, optional，String representation of floating point infinity (default inf).
+
+  实例： np.set_printoptions(threshold=np.nan) ： 意思是全部打印
